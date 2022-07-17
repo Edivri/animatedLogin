@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen>
                     Padding(
                       padding: const EdgeInsets.only(top: 70, bottom: 32),
                       child: Image.asset(
-                        "images/heart.png",
+                        "images/veado.png",
                         width: 200,
                         height: 200,
                         fit: BoxFit.contain,
