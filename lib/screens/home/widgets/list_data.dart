@@ -17,7 +17,7 @@ class ListData extends StatelessWidget {
     return Container(
       margin: margin,
       decoration: const BoxDecoration(
-          color: Colors.white,
+          color: Color.fromARGB(255, 253, 255, 254),
           border: Border(
               top: BorderSide(color: Colors.grey, width: 1.0),
               bottom: BorderSide(color: Colors.grey, width: 1.0))),
