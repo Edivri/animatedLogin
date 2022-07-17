@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen>
       body: Container(
         decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("images/fundo_tela.jpeg"),
+                image: AssetImage("images/bk.jpeg"),
                 fit: BoxFit.cover)),
         child: ListView(
           padding: EdgeInsets.zero,
