@@ -12,16 +12,22 @@ class AnimatedListView extends StatelessWidget {
       alignment: Alignment.bottomCenter,
       children: [
         ListData(
-          subtitle: 'Com o Ayrton Porto',
-          title: 'Estudar Flutter',
+          subtitle: 'With Jane, Cape Town',
+          title: 'Mastering Flutter',
           margin: listSlidePosition.value * 1,
-          image: const AssetImage('images/rick.jpeg'),
+          image: const AssetImage('images/babe.jpg'),
         ),
         ListData(
-          subtitle: 'No Nubank',
-          title: 'Trabalhar com Flutter',
+          subtitle: 'Camps Bay',
+          title: 'Working with Dart',
           margin: listSlidePosition.value * 0,
-          image: const AssetImage('images/rick.jpeg'),
+          image: const AssetImage('images/babe.jpg'),
+        ),
+        ListData(
+          subtitle: 'Dubai',
+          title: 'Working with Animation',
+          margin: listSlidePosition.value * 0,
+          image: const AssetImage('images/babe.jpg'),
         ),
       ],
     );
