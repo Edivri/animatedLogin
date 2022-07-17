@@ -16,7 +16,7 @@ class FormContainer extends StatelessWidget {
                 ),
                 InputField(
                     icon: Icons.lock_outlined,
-                    hint: "Passworld",
+                    hint: "Password",
                     obscure: true
                 ),
             ],
