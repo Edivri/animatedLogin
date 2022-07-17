@@ -64,7 +64,7 @@ class StaggerAnimationHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.orangeAccent,
+        color: Colors.white,
         child: AnimatedBuilder(
           animation: controller,
           builder: _buidAnimation,
