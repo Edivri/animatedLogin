@@ -25,12 +25,12 @@ class AnimatedListView extends StatelessWidget {
           margin: listSlidePosition.value * 0,
           image: const AssetImage('images/modell.jpg'),
         ),
-        ListData(
-          subtitle: 'Dubai',
-          title: 'Working with Animation',
-          margin: listSlidePosition.value * 0,
-          image: const AssetImage('images/modell.jpg'),
-        ),
+        // ListData(
+        //   subtitle: 'Dubai',
+        //   title: 'Working with Animation',
+        //   margin: listSlidePosition.value * 0,
+        //   image: const AssetImage('images/modell.jpg'),
+        // ),
       ],
     );
   }
