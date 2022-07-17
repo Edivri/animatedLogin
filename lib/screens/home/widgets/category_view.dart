@@ -30,16 +30,16 @@ class _CategoryViewState extends State<CategoryView> {
         IconButton(
           onPressed: _category > 0 ? selectBackward : null,
           icon: const Icon(Icons.arrow_back_ios),
-          color: Colors.black,
+          color: Colors.teal,
         ),
         Text(
           categories[_category].toUpperCase(),
-          style: const TextStyle(fontWeight: FontWeight.w400, fontSize: 18),
+          style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 30, color: Colors.white),
         ),
         IconButton(
           onPressed: _category < categories.length -1 ? selectFoward : null,
           icon: const Icon(Icons.arrow_forward_ios),
-          color: Colors.black,
+          color: Colors.teal,
         ),
       ],
     );
