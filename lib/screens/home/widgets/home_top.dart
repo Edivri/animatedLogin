@@ -14,12 +14,12 @@ class HomeTop extends StatelessWidget {
       height: screenSize.height * 0.4,
       decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('images/fundo_tela.jpeg'), fit: BoxFit.cover)),
+              image: AssetImage('images/bk.jpeg'), fit: BoxFit.cover)),
       child: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            const Text('Bem vindo Ayrton!',
+            const Text('Welcome Jane!',
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.w300,
@@ -33,7 +33,7 @@ class HomeTop extends StatelessWidget {
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                    image: AssetImage('images/rick.jpeg'),
+                    image: AssetImage('images/babe.jpg'),
                     fit: BoxFit.cover
                 )
               ),
